@@ -12,7 +12,7 @@ const PostDetail = () => {
     return (
         <div>
             <h2>Post Detail about: {id}</h2>
-            <p>{title}</p>
+            <p>Title: {title}</p>
             <p><small>{body}</small></p>
             <button onClick={handleGoBack}>Go Back</button>
         </div>
